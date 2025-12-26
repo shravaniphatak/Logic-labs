@@ -15,8 +15,9 @@ public class Q1string {
 		for(int i = str.length()-1; i >= 0; i--)
 		{
 		  char ch = str.charAt(i);
-		  if(ch >= 'a' && ch <= 'z')
+		  if(ch >= 'a' && ch <= 'z') {
 		rev =  rev+ str.charAt(i);
+		  }
 			
 		}
 		
