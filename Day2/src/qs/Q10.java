@@ -2,7 +2,7 @@ package qs;
 import java.util.Scanner;
 
 class ATM { // created a atm class
-	float currentBalance; // this variable i have declared outside the method to use it in other methods as well
+	static float currentBalance; // this variable i have declared outside the method to use it in other methods as well (instance variable)
 	
 	void balance(float n) { // method
 	 currentBalance = n;
